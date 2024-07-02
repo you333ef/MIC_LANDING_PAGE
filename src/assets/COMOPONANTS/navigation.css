@@ -1,0 +1,271 @@
+/* navigation.css */
+.Barra {
+    background: rgba(11, 149, 134, 1);
+    padding: 10px 20px;
+    position: relative; 
+   
+  }
+  .mid-nav a{
+    color: #fff;
+    font-weight: 700;
+  }
+  .Spectific{
+    border-bottom: 3px solid rgba(0, 0, 0, 0.3);
+    background: rgba(0, 0, 0, 0.06);
+padding:  8px 10px;
+border-radius: 3px;
+  }
+  .src-left-nav{
+    margin-left: 70px;
+  }
+  .mid-nav ul{
+  gap: 30px;
+  }
+  .right-nav small{
+font-weight: 600;
+color: #fff;
+font-size: 19px;
+  }
+  .right-nav p{
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+
+  
+  
+  .flex-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .left-nav, .right-nav {
+    flex: 1;
+    min-width: 100px; /* تحديد عرض أدنى للعناصر */
+  }
+  
+  .mid-nav {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .UNLISTED {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+  }
+  
+  /* أساسي للقائمة على الشاشات الصغيرة */
+  .toggle-btn {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  .toggle-btn div {
+    width: 25px;
+    height: 3px;
+    background-color: rgba(11, 149, 134, 1);
+    margin: 4px 0;
+  }
+  
+  @media (max-width: 1024px) {
+    .mid-nav {
+      display: none;
+    }
+  
+    .right-nav {
+      display: none; 
+    }
+  
+    .toggle-btn {
+      display: flex;
+    }
+  
+    .show-nav .mid-nav {
+      display: flex;
+      flex-direction: column; /* عرض العناصر بشكل عمودي */
+      gap: 10px;
+      position: absolute;
+      top: 50px;
+      left: 0;
+      background-color: #fff;
+      width: 100%;
+      padding: 20px;
+    }
+    
+    .UNLISTED {
+      flex-direction: column; /* عرض عناصر الـ ul بشكل عمودي */
+      align-items: center;
+      gap: 10px;
+      margin-top: 20px;
+
+    }
+  
+    .UNLISTED li {
+      width: 100%;
+      text-align: center;
+
+    }
+  }
+  @media (max-width: 768px) {
+    .mid-nav {
+        display: none;
+      }
+    
+      .right-nav {
+        display: none; 
+      }
+    
+      .toggle-btn {
+        display: flex;
+      }
+      
+    
+      .show-nav .mid-nav {
+        display: flex;
+        flex-direction: column; /* عرض العناصر بشكل عمودي */
+        gap: 10px;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        background-color: #fff;
+        width: 100%;
+        padding: 20px;
+      }
+      
+      .UNLISTED {
+        flex-direction: column; /* عرض عناصر الـ ul بشكل عمودي */
+        align-items: center;
+      }
+    
+      .UNLISTED li {
+        width: 100%;
+        text-align: center;
+       
+      }
+      .UNLISTED a{
+        color: #fff;
+      }
+      .UNLISTED .Spectific{
+       padding: 5px;
+      
+      }
+
+
+
+  }
+  /* أساسي للقائمة على الشاشات الصغيرة */
+.toggle-btn {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  .toggle-btn div {
+    width: 25px;
+    height: 3px;
+    background-color: #fff; /* لون الهمبرجر يكون أبيض */
+    margin: 4px 0;
+  }
+  
+  @media (max-width: 1024px) {
+    .mid-nav {
+      display: none;
+    }
+  
+    .right-nav {
+      display: none; 
+    }
+  
+    .toggle-btn {
+      display: flex;
+    }
+  
+    .show-nav .mid-nav {
+      display: flex;
+      flex-direction: column; /* عرض العناصر بشكل عمودي */
+      gap: 10px;
+      position: absolute;
+      top: 50px;
+      left: 0;
+      background-color: #fff;
+      width: 100%;
+      padding: 20px;
+    }
+    
+    .UNLISTED {
+      flex-direction: column; /* عرض عناصر الـ ul بشكل عمودي */
+      align-items: center;
+      gap: 10px;
+      margin-top: 20px;
+      width: 100%; /* تأكد من عرض الـ ul */
+    }
+  
+    .UNLISTED li {
+      width: 100%;
+      text-align: center;
+      display: block; /* تأكد من عرض الـ li */
+    }
+  
+    .UNLISTED li a {
+      display: block;
+      padding: 10px;
+      color: #000; /* لون النص */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .mid-nav {
+      display: none;
+    }
+    .left-nav .src-left-nav {
+        margin-left: 0; 
+      }
+      
+  
+    .right-nav {
+      display: none; 
+    }
+  
+    .toggle-btn {
+      display: flex;
+    }
+  
+    .show-nav .mid-nav {
+      display: flex;
+      flex-direction: column; /* عرض العناصر بشكل عمودي */
+      gap: 10px;
+      position: absolute;
+      top: 50px;
+      left: 0;
+      background-color: #fff;
+      width: 100%;
+      padding: 20px;
+    }
+    
+    .UNLISTED {
+      flex-direction: column; /* عرض عناصر الـ ul بشكل عمودي */
+      align-items: center;
+      gap: 10px;
+      margin-top: 20px;
+      width: 100%; /* تأكد من عرض الـ ul */
+    }
+  
+    .UNLISTED li {
+      width: 100%;
+      text-align: center;
+      display: block; /* تأكد من عرض الـ li */
+    }
+  
+    .UNLISTED li a {
+      display: block;
+      padding: 10px;
+      color: #000; /* لون النص */
+    }
+  }
+  

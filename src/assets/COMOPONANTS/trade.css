@@ -1,0 +1,63 @@
+.SECTION-FLEX {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #instd{
+    display: none;
+  }
+  
+  .Section-left h2 {
+    font-weight: 500;
+  }
+  
+  .Section-left {
+    margin-top: 90px;
+  }
+  
+  .Section-left p {
+    margin-top: 30px;
+    letter-spacing: 0.5px;
+  }
+  
+  .ALL-OPTIONS {
+    margin-top: 30px;
+  }
+  
+  .ALL-OPTIONS span {
+    color: rgba(132, 189, 58, 1);
+  }
+  
+  .ALL-OPTIONS h5 {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  .ALL-OPTIONS span {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  .Section-right {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  @media (max-width: 767px) {
+    .Section-right {
+      order: -1; /* تغيير الترتيب */
+    }
+  #instd{
+    display: flex;
+    width: 100%;
+
+  }
+  .IMGTWICE{
+    display: none;
+  }
+
+    .Section-left {
+      order: 1; /* تغيير الترتيب */
+    }
+  }
+  

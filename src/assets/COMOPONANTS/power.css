@@ -1,0 +1,42 @@
+.POWER{
+background-image: url('../IMGS/8116 1.svg');
+height: 70vh;
+width: 100%;
+background-position: center; /* وضع الخلفية في المنتصف */
+
+background-size: cover;
+margin-top: 30px;
+
+}
+#container{
+   padding-top: 40px;
+   
+
+}
+#container h3{
+    color: #fff;
+    font-weight: 600;
+}
+#container p{
+    color: #fff;
+    font-weight: 500;
+    padding-top: 10px;
+    
+}
+#Call{
+    outline: none;
+    border: none;
+    border-radius: 7px;
+    padding: 6px;
+    background: rgba(255, 187, 28, 1);
+
+}
+@media (max-width: 768px) {
+    .POWER {
+      height: 50vh; /* تعديل الارتفاع لتغطية الشاشة بالكامل */
+    }
+  
+    .container {
+      padding-top: 50px; /* تعديل الـ padding حسب الحاجة */
+    }
+  }

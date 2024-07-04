@@ -53,7 +53,9 @@
 
   }
   .IMGTWICE{
-    display: none;
+    /* display: none; */
+    background-position: center;
+    width: 95%;
   }
 
     .Section-left {

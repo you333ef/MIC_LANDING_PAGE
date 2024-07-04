@@ -1,0 +1,113 @@
+.what-section {
+    padding: 40px 0;
+  }
+  
+  .left-content {
+    text-align: left;
+  }
+  
+  .tansses-img {
+    width: 50px; /* Adjust the size as needed */
+  }
+  
+  .right-content {
+    background-color: #f8fdfd;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: left;
+    position: relative; /* Added for positioning the controls */
+  }
+  
+  .testimonial-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .points-img {
+    width: 20px; /* Adjust the size as needed */
+  }
+  
+  .testimonial-author {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .author-img {
+    border-radius: 50%;
+    margin-right: 10px;
+    width: 40px; /* Adjust the size as needed */
+    height: 40px; /* Adjust the size as needed */
+  }
+  
+  .author-name {
+    font-weight: bold;
+  }
+  
+  .author-title {
+    color: gray;
+    font-size: 0.9rem;
+  }
+  
+  .testimonial-controls {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .control-btn {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #e0e0e0;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  .control-btn:hover {
+    background-color: #ccc;
+  }
+.testimonial-header h5{
+    color:  rgba(60, 171, 144, 1);
+} 
+.testimonial-header .points-img{
+   width: 13%;
+} 
+.testimonial-header h5{
+    font-weight: 700;
+}
+.right-content {
+    background: rgba(60, 171, 144, 0.06);
+    padding: 20px;
+    
+
+}
+.left-content h2{
+    font-weight: 700;
+    margin: 5px;
+}
+.left-content .tansses-img{
+    padding: 7px;
+}
+@media (max-width: 768px) {
+  .what-section{
+  margin-bottom: 90px;
+  }
+  .left-content{
+    margin: 7px;
+
+  }
+  .right-content{
+    margin: 10px;
+  }
+
+
+
+  }

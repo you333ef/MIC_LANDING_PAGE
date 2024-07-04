@@ -1,0 +1,104 @@
+footer {
+    background: rgba(40, 54, 70, 1);
+
+  }
+  
+  footer a {
+    color: white;
+  }
+  
+  footer a.text-secondary {
+    color: #6c757d !important;
+  }
+  
+  footer .input-group {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: 0;
+  }
+  
+  footer .form-control {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-right: none;
+  }
+  
+  footer .input-group-append .btn {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  
+  footer .btn-subscribe {
+    background-color: #f5a623;
+    color: white;
+  }
+  .trtr{
+    display: flex;
+    flex-direction: column;
+
+} 
+.trtr ul{
+    gap: 20px;
+
+} 
+
+  
+  footer .btn-subscribe:hover {
+    background-color: #e5941f;
+  }
+ 
+  /* Hide ul on smaller screens */
+  @media (max-width: 767.98px) {
+    .d-md-flex {
+      display: none !important;
+    }
+    #plurPhoto{
+     margin-left: 27%;
+     padding: 10px;
+    }
+    
+  
+    /* Center text on smaller screens */
+    footer .text-md-right {
+      text-align: center !important;
+    }
+  
+    footer .text-md-left {
+      text-align: center !important;
+    }
+  
+    footer .input-group {
+      justify-content: center;
+    }
+    #plurPhoto {
+        margin-right: 1rem;
+      }
+      .center-on-mobile {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+  }
+  
+  /* Additional responsive styling */
+  @media (max-width: 991.98px) {
+    footer .input-group {
+      max-width: 100%;
+    }
+  
+    footer .input-group .form-control, footer .input-group .btn {
+      border-radius: 0;
+    }
+  
+    footer .form-control {
+      border-radius: 20px 0 0 20px;
+      
+    }
+   
+  
+    footer .input-group-append .btn {
+      border-radius: 0 20px 20px 0;
+    }
+    
+  }
+  

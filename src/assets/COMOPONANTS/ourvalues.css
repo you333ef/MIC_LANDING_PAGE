@@ -1,0 +1,125 @@
+ .VALUES h4{
+    color: #000;
+font-weight: 700;
+font-size: 21px;
+
+}
+.VALUES{
+    margin-top: 150px;
+}
+.Customer{
+    background: rgba(60, 171, 144, 0.05);
+    border: 1px solid rgba(60, 171, 144, 1);
+    border-radius: 20px;
+
+}
+.Customer img{
+    padding: 10px;
+}
+.PRISEE img{
+    padding: 10px;
+}
+.EARTH img{
+padding: 10px;
+}
+.Customer p{
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    padding: 5px;
+}
+.PRISEE p{
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    padding: 5px;
+
+}
+.EARTH p{
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    padding: 5px;
+}
+.PRISEE{
+    background: rgba(60, 171, 144, 0.05);
+    border: 1px solid rgba(60, 171, 144, 1);
+    border-radius: 20px;
+
+}
+.EARTH{
+    background: rgba(60, 171, 144, 0.05);
+    border: 1px solid rgba(60, 171, 144, 1);
+    border-radius: 20px;
+
+}
+.TITLLEVALUE{
+    font-weight: 600;
+
+}
+.ROWVALUE{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+   
+  
+}
+
+.paragraph{
+    margin-top: 15px;
+}
+@media (max-width: 768px){
+.VALUES{
+    margin-top: 70px;
+
+}
+.paragraph{
+    font-size: 14px;
+}
+.TITLLEVALUE{
+    font-weight: 700;
+    font-size: 30px;
+
+}
+.ROWVALUE{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin: 30px;
+   
+  
+}
+.Customer img{
+    padding: 10px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+.PRISEE img{
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.EARTH img{
+padding: 10px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+.EARTH{
+    margin: 5px;
+}
+.PRISEE{
+    margin: 5px;
+}
+.Customer{
+    margin: 5px;
+}
+
+
+
+
+
+
+}

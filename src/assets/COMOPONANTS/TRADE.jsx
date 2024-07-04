@@ -21,7 +21,7 @@ const TRADE = () => {
         </div>
         <div className="Section-right col-xs-12 col-lg-6">
           <img src={IMGTWICE} alt="Group 3" className='IMGTWICE' />
-          <img src={instd} alt="Group insted"id='instd' />
+        
         </div>
       </div>
    </section>

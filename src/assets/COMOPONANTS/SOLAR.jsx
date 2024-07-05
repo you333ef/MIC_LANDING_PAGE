@@ -11,16 +11,16 @@ const SOLAR = () => {
 <h4 className='text-center '>Solar Kits</h4>
 <p className='text-center EE'>Complete solar system kits, ready for installation. They can be used to supplement on-grid housing, a complete self- <br />sustaining home or some combination of the two.</p>
 <div className="row SECTIONS">
-    <div className="col-lg-4 col-sm-12 LL">
-<img src={HouseOne} alt="" />
+    <div className="col-lg-4 col-md-12 col-sm-12 LL">
+<img src={HouseOne} alt="" id='HouseOne' />
 <h5>Off Grid</h5>
 <p>WOC has contributed to students so that they can work in their dream company, we will continue to stick to our commitment to create an advanced generation,</p>
 <h6>View Products  <img src={Icon} alt="" /></h6>
 
 
     </div>
-    <div className="col-lg-4 col-sm-12 LL">
-    <img src={HouseTwo} alt="" />
+    <div className="col-lg-4 col-md-12 col-sm-12 LL">
+    <img src={HouseTwo} alt="" id='HouseTwo' />
     <h5>On Grid</h5>
     <p>WOC has contributed to students so that they can work in their dream company, we will continue to stick to our commitment to create an advanced generation,</p>
     <h6>View Products <img src={Icon} alt="" /></h6>
@@ -28,8 +28,8 @@ const SOLAR = () => {
 
 
     </div>
-    <div className="col-lg-4 col-sm-12 LL">
-    <img src={HouseThree} alt="" />
+    <div className="col-lg-4 col-md-12  col-sm-12 LL">
+    <img src={HouseThree} alt="" id='HouseThree' />
     <h5>Hybrid</h5>
     <p>WOC has contributed to students so that they can work in their dream company, we will continue to stick to our commitment to create an advanced generation,</p>
 <h6>View Products <img src={Icon} alt="" /></h6>

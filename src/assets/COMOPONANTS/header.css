@@ -1,84 +1,97 @@
-header{
+header {
     background-image: url('../IMGS/SOOLAR.svg');
     background-size: cover;
     width: 100%;
-    height: 100vh;
-    
+    height: 120vh;
 }
-.ROWWOW{
-display: flex;
-flex-direction: column;
 
+.ROWWOW {
+    display: flex;
+    flex-direction: column;
 }
-.img-up{
-margin-top: 60px;
 
+.img-up {
+    margin-top: 60px;
 }
-.down-head{
 
-margin-top: 110px;
-
+.down-head {
+    margin-top: 110px;
 }
-.down-head  h3{
+
+.down-head h3 {
     color: #fff;
     font-weight: 700;
     font-size: 34px;
     padding: 5px;
+}
 
+.down-head h5 {
+    color: #fff;
+    font-weight: 25px;
+    font-weight: 500;
+    margin: 5px;
+    letter-spacing: 1px;
+    margin-top: 20px;
 }
-.down-head h5{
-color: #fff;
-font-weight: 25px;
-font-weight: 500;
-margin: 5px;
-letter-spacing: 1px;
-margin-top: 20px;
-}
-.buttons{
+
+.buttons {
     margin-top: 30px;
-display: flex;
-flex-direction: row;
-gap: 30px;
-
-
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
 }
-.buttons .Call{
+
+.buttons .Call {
     background: rgba(60, 171, 144, 1);
     border-radius: 6px;
     border: none;
     outline: none;
-padding: 5px;
-color: #fff;
-font-weight: 500;
-
+    padding: 5px;
+    color: #fff;
+    font-weight: 500;
 }
-.buttons .back{
+
+.buttons .back {
     background: rgba(255, 187, 28, 1);
     border-radius: 6px;
     border: none;
     outline: none;
     padding: 5px;
     font-weight: 500;
-
-
 }
+
 @media (max-width: 768px) {
-    header{
+    header {
         background-image: url('../IMGS/SOOLAR.svg');
         background-size: cover;
         width: 100%;
-        height: 95vh;
-        
+        height: 100vh;
     }
-    .down-head{
-margin-top: 200px;
-
+    .img-up {
+        margin-top: 120px; /* زيادة 60 بيكسل */
     }
-    .ROWWOW{
+    .down-head {
+        margin-top: 170px; /* زيادة 60 بيكسل */
+    }
+    .ROWWOW {
         padding: 10px;
         padding-top: 10px;
     }
-   
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .img-up {
+        position: relative;
+        top: 200px; /* نزل الصورة بس 40 بيكسل */
+    }
+    .down-head {
+        margin-top: 320px;
+    }
+    
+    
+
+
+
 
 
 

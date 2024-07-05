@@ -5,12 +5,12 @@ const HEADER = () => {
   return (
     <header>
     <div className="container ROWWOW">
-<div className="up">
+<div className="up ">
 <img src={Audio} alt=""  className='img-up'/>
 
 
 </div>
-<div className="down-head">
+<div className="down-head ">
 <h3>Solar Panel Installers In Plymouth</h3>
 <h5>Fueled is an award-winning technology consultancy that transforms<br/> businesses by generating ideas, building products, and accelerating<br/> growth.</h5>
 <div className="buttons">

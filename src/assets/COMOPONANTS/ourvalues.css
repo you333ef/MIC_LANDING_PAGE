@@ -116,10 +116,12 @@ margin-right: auto;
 .Customer{
     margin: 5px;
 }
-
-
-
-
-
-
 }
+@media (min-width: 769px) and (max-width: 1024px) {
+  .Customer,.PRISEE,.EARTH{
+    margin: 10px;
+  }
+
+
+
+  }

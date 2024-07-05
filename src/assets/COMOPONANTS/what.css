@@ -111,3 +111,10 @@
 
 
   }
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .left-content,.right-content{
+      margin: 20px;
+    }
+
+
+  }

@@ -33,8 +33,9 @@ margin-top: 30px;
 }
 @media (max-width: 768px) {
     .POWER {
-      height: 50vh; /* تعديل الارتفاع لتغطية الشاشة بالكامل */
+      height: 35vh; /* تعديل الارتفاع لتغطية الشاشة بالكامل */
       background-size: cover;
+      width: 100%;
 
     }
   

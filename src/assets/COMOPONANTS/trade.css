@@ -42,6 +42,12 @@
     width: 100%;
     overflow: hidden;
   }
+  .IMGTWICE{
+    /* display: none; */
+    background-position: center;
+    width:75%;
+    margin-top: 100px;
+  }
   
   @media (max-width: 767px) {
     .Section-right {
@@ -55,7 +61,7 @@
   .IMGTWICE{
     /* display: none; */
     background-position: center;
-    width: 95%;
+    width:75%;
   }
 
     .Section-left {
@@ -75,6 +81,7 @@
     /* display: none; */
     background-position: center;
     width: 80%;
+    margin-top:0 ;
   }
 
     .Section-left {

@@ -2,10 +2,13 @@
 background-image: url('../IMGS/8116 1.svg');
 height: 70vh;
 width: 100%;
-background-position: center; /* وضع الخلفية في المنتصف */
+background-position: center; 
 background-size: cover;
 margin-top: 30px;
 
+}
+.OKAY{
+  margin-top: 50px;
 }
 #container{
    padding-top: 40px;
@@ -33,14 +36,16 @@ margin-top: 30px;
 }
 @media (max-width: 768px) {
     .POWER {
-      height: 35vh; /* تعديل الارتفاع لتغطية الشاشة بالكامل */
+      height: 35vh;
       background-size: cover;
       width: 100%;
 
     }
-  
+    .OKAY{
+      margin-top: 15px;
+    }
     .container {
-      padding-top: 50px; /* تعديل الـ padding حسب الحاجة */
+      padding-top: 50px;
     }
   }
   @media (max-width: 1024px) and (min-width: 798px) {
@@ -53,7 +58,7 @@ margin-top: 30px;
   background-image: url('../IMGS/8116 1.svg');
   height:40vh;
   width: 100%;
-  background-position: center; /* وضع الخلفية في المنتصف */
+  background-position: center; 
   
   background-size: cover;
   margin-top: 30px;

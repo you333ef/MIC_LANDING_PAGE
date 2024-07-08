@@ -45,13 +45,17 @@
   .IMGTWICE{
     /* display: none; */
     background-position: center;
-    width:75%;
+    width:83%;
     margin-top: 100px;
   }
   
   @media (max-width: 767px) {
     .Section-right {
       order: -1; /* تغيير الترتيب */
+    }
+    .SECTION-FLEX {
+      margin-top: 0;
+     
     }
   #instd{
     display: flex;

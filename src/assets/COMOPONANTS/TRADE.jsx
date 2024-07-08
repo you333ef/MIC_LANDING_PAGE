@@ -2,7 +2,6 @@ import React from 'react';
 import './trade.css';
 import IMGTWICE from '../IMGS/Group 3.svg';
 import instd from '../IMGS/Rectangle 30.png'
-
 const TRADE = () => {
   return (
    <section className="container">

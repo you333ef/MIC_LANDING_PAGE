@@ -9,6 +9,7 @@
   
   .Section-left h2 {
     font-weight: 500;
+    font-size: 30px;
   }
   
   .Section-left {
@@ -54,8 +55,11 @@
       order: -1; /* تغيير الترتيب */
     }
     .SECTION-FLEX {
-      margin-top: 0;
+      margin-top: 5px;
      
+    }
+    .Section-left {
+      margin-top: 10px;
     }
   #instd{
     display: flex;
@@ -65,7 +69,8 @@
   .IMGTWICE{
     /* display: none; */
     background-position: center;
-    width:75%;
+    width:90%;
+    margin-bottom: 40px;
   }
 
     .Section-left {
